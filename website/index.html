@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SwiftShip Dropshipping</title>
+    <meta
+      name="description"
+      content="SwiftShip is your all-in-one dropshipping launchpad with curated winning products, automated fulfillment, and marketing guidance."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="container">
+        <a class="logo" href="#hero">SwiftShip</a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <ul id="nav-links" class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#catalog">Catalog</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="#contact">Launch Store</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero" role="banner">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="hero-kicker">All-in-one dropshipping engine</p>
+            <h1>Launch your dream store in days, not months.</h1>
+            <p>
+              SwiftShip gives you vetted products, automated fulfillment, and done-for-you
+              marketing campaigns so you can focus on building a brand that sells.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#pricing">View plans</a>
+              <a class="btn secondary" href="#catalog">See winning products</a>
+            </div>
+            <ul class="hero-metrics" aria-label="Key performance metrics">
+              <li><strong>500+</strong> store launches powered</li>
+              <li><strong>3.8x</strong> average return on ad spend</li>
+              <li><strong>48 hrs</strong> onboarding time</li>
+            </ul>
+          </div>
+          <div class="hero-card" aria-label="Fulfillment dashboard preview">
+            <h2>Live fulfillment snapshot</h2>
+            <ul class="stat-list">
+              <li>
+                <span>Orders in queue</span>
+                <strong>128</strong>
+              </li>
+              <li>
+                <span>Avg. delivery time</span>
+                <strong>4.1 days</strong>
+              </li>
+              <li>
+                <span>Returns resolved</span>
+                <strong>97%</strong>
+              </li>
+            </ul>
+            <p class="card-footnote">All shipments fully tracked and branded for your store.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="brands" class="brands">
+        <div class="container">
+          <p class="section-kicker">Trusted by fast-scaling merchants</p>
+          <ul class="brand-logos" aria-label="Brand partners">
+            <li>ShopHub</li>
+            <li>ScaleWave</li>
+            <li>PixelCart</li>
+            <li>NovaCommerce</li>
+            <li>Beacon &amp; Co.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="container">
+          <p class="section-kicker">Why merchants choose SwiftShip</p>
+          <h2>Everything you need to build, launch, and scale a dropshipping brand.</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Winning product intelligence</h3>
+              <p>
+                Daily refreshed catalog with market demand scores, supplier reliability ratings,
+                and proven ad creatives for each product.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Automated fulfillment network</h3>
+              <p>
+                24/7 synced warehouses across US, EU, and APAC with real-time tracking and branded
+                packaging options.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Conversion-ready storefront kits</h3>
+              <p>
+                Drag-and-drop templates optimized for high AOV and recurring revenue models.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Marketing launchpad</h3>
+              <p>
+                Pre-built TikTok, Meta, and email flows with lookalike audience data to shorten
+                testing cycles.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog">
+        <div class="container">
+          <div class="catalog-header">
+            <div>
+              <p class="section-kicker">Curated winning products</p>
+              <h2>High-margin picks ready to import into your store.</h2>
+            </div>
+            <div class="filters" role="group" aria-label="Product filters">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="home">Home</button>
+              <button class="filter-btn" data-filter="fitness">Fitness</button>
+              <button class="filter-btn" data-filter="beauty">Beauty</button>
+              <button class="filter-btn" data-filter="tech">Tech</button>
+            </div>
+          </div>
+          <div class="product-grid" role="list"></div>
+        </div>
+      </section>
+
+      <section id="process" class="process">
+        <div class="container">
+          <p class="section-kicker">How it works</p>
+          <h2>From idea to first sale in four simple steps.</h2>
+          <ol class="process-steps">
+            <li>
+              <h3>Choose your products</h3>
+              <p>Import winning items to Shopify, WooCommerce, or BigCommerce with a single click.</p>
+            </li>
+            <li>
+              <h3>Customize your storefront</h3>
+              <p>Apply our conversion-tested themes, email flows, and ad scripts tailored to your niche.</p>
+            </li>
+            <li>
+              <h3>Automate fulfillment</h3>
+              <p>Orders are routed to the fastest warehouse with real-time tracking and proactive notifications.</p>
+            </li>
+            <li>
+              <h3>Scale with insights</h3>
+              <p>Tap into live dashboards tracking ROAS, retention, and inventory health.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="pricing" class="pricing">
+        <div class="container">
+          <p class="section-kicker">Straightforward pricing</p>
+          <h2>Pick the plan that matches your growth stage.</h2>
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <h3>Starter</h3>
+              <p class="price">$39<span>/mo</span></p>
+              <ul>
+                <li>100 product imports</li>
+                <li>Automated order routing</li>
+                <li>Guided onboarding</li>
+                <li>Community access</li>
+              </ul>
+              <a class="btn ghost" href="#contact">Choose Starter</a>
+            </article>
+            <article class="pricing-card popular" aria-label="Most popular plan">
+              <p class="badge">Most popular</p>
+              <h3>Scale</h3>
+              <p class="price">$99<span>/mo</span></p>
+              <ul>
+                <li>Unlimited product imports</li>
+                <li>White-label packaging</li>
+                <li>Dedicated success manager</li>
+                <li>Weekly market reports</li>
+              </ul>
+              <a class="btn primary" href="#contact">Choose Scale</a>
+            </article>
+            <article class="pricing-card">
+              <h3>Empire</h3>
+              <p class="price">$249<span>/mo</span></p>
+              <ul>
+                <li>Wholesale pricing tiers</li>
+                <li>Custom logistics workflows</li>
+                <li>Paid media management</li>
+                <li>Priority support</li>
+              </ul>
+              <a class="btn ghost" href="#contact">Choose Empire</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <p class="section-kicker">Merchant stories</p>
+          <h2>Entrepreneurs who scale with SwiftShip.</h2>
+          <div class="testimonial-grid">
+            <figure>
+              <blockquote>
+                “I went from idea to $50k/month in revenue within 90 days. The fulfillment network is
+                rock solid and support is incredible.”
+              </blockquote>
+              <figcaption>
+                <strong>Jasmine Patel</strong>
+                <span>Founder, GlowNest</span>
+              </figcaption>
+            </figure>
+            <figure>
+              <blockquote>
+                “The built-in ads and landing pages mean we can launch tests in hours. Our ROAS more
+                than tripled after switching.”
+              </blockquote>
+              <figcaption>
+                <strong>Marco Liu</strong>
+                <span>Co-founder, GearForge</span>
+              </figcaption>
+            </figure>
+            <figure>
+              <blockquote>
+                “SwiftShip keeps inventory synced and customer communication proactive—we finally
+                have the bandwidth to focus on brand building.”
+              </blockquote>
+              <figcaption>
+                <strong>Danielle Ruiz</strong>
+                <span>CEO, Haven &amp; Home</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq">
+        <div class="container">
+          <p class="section-kicker">FAQ</p>
+          <h2>Answers to common questions.</h2>
+          <div class="faq-list" role="list"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact-copy">
+            <p class="section-kicker">Talk to us</p>
+            <h2>Ready to launch your dropshipping brand?</h2>
+            <p>
+              Tell us about your niche and growth goals. Our team will curate a launch plan and get
+              you selling fast.
+            </p>
+            <ul class="contact-details">
+              <li><strong>Email:</strong> hello@swiftship.io</li>
+              <li><strong>Support:</strong> 24/7 concierge on Scale &amp; Empire plans</li>
+              <li><strong>Warehouses:</strong> Los Angeles · Rotterdam · Shenzhen</li>
+            </ul>
+          </div>
+          <form class="contact-form" aria-label="Book a strategy call">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Alex Rivera" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@brand.com" required />
+
+            <label for="niche">Store niche</label>
+            <input id="niche" name="niche" type="text" placeholder="Home fitness" />
+
+            <label for="plan">Interested plan</label>
+            <select id="plan" name="plan">
+              <option value="starter">Starter</option>
+              <option value="scale">Scale</option>
+              <option value="empire">Empire</option>
+            </select>
+
+            <label for="message">Goals</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Tell us about your current store or vision"
+            ></textarea>
+
+            <button type="submit" class="btn primary full-width">Book strategy call</button>
+            <p class="form-disclaimer">
+              By submitting, you agree to receive onboarding resources from SwiftShip. Unsubscribe
+              anytime.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="#hero">SwiftShip</a>
+          <p>Turnkey dropshipping infrastructure for ambitious founders.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="#features">Platform</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">Support</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-extra">
+          <p><strong>Resources</strong></p>
+          <ul>
+            <li><a href="#">Dropshipping playbook</a></li>
+            <li><a href="#">Supplier scorecard</a></li>
+            <li><a href="#">Brand kit templates</a></li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <p><strong>Weekly trend radar</strong></p>
+          <form class="newsletter-form">
+            <label class="sr-only" for="newsletter-email">Email address</label>
+            <input
+              id="newsletter-email"
+              type="email"
+              placeholder="you@brand.com"
+              aria-label="Email address"
+            />
+            <button type="submit" class="btn secondary">Join</button>
+          </form>
+        </div>
+      </div>
+      <p class="footer-bottom">© <span id="year"></span> SwiftShip Labs. All rights reserved.</p>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
